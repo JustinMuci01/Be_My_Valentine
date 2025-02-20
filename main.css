@@ -1,0 +1,144 @@
+body {
+    font-family: 'Press Start 2P';font-size: 22px;
+}
+
+.heart-text-container {
+    display: flex;           
+    align-items: center;   
+    justify-content: center;  
+    gap: 10px;               
+}
+
+.heart { 
+    position: relative; 
+    width: 100px; 
+    height: 90px; 
+} 
+
+.heart:before, .heart:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0; 
+    width: 50px; 
+    height: 80px; 
+    background: hwb(303 69% 0%); 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+} 
+
+.heart:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
+
+.heart-text {
+    font-size: 20px;
+    align-items: center;
+}
+
+html
+{
+    font-size: 20px;   
+    background-color: #333;
+    color:hwb(303 69% 0%);
+}
+
+hr{
+    border-color:hwb(303 69% 0%);
+}
+
+h1{
+    font-family: serif; 
+    text-align: center;
+}
+
+p{
+    text-align:center;
+    font-size: 20px;
+}
+
+footer{
+    font-family: serif;
+    text-align:left;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    border-style:ridge;
+}
+
+aside{
+    float:right;
+}
+
+.text{
+    align-self: flex-end;
+}
+
+table, tr, th, caption{
+    border: 1px solid pink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+
+.container {
+    display: flex; /* Aligns the items vertically centered */
+  }
+  .image {
+    width: 200px; /* You can adjust the image size */
+    height: 200px;
+  }
+  .text {
+    font-family: 'Press Start 2P';
+    vertical-align: top;
+    font-size: 30px;
+    margin-left: 100px; /* Adds space between image and text */
+  }
+
+a{
+    color:white
+}
+
+a{
+    color:pink
+}
+
+a:hover, a:active{
+    color:gray
+}
+
+.text2 {
+    color: pink;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    width:0%;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:
+        typing 1s steps(6) forwards;
+        animation-delay: 1s;
+}
+
+@keyframes typing{
+    from { width: 0 }
+    to{ width:100% }
+}

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Monofonto';
+    src: url(monofonto.otf);
+}
+
+html{
+    background-color: black;
+    font-size: 40px;
+    font-family: 'Monofonto';
+}
+
+footer{
+    font-family:fantasy;
+    font-size: 20px;
+    color:#0f0;
+    text-align:right;
+    border-color: #0f0;
+    vertical-align: bottom;
+}
+
+hr{
+    border-color: #0f0;
+}
+
+.typewriter {
+    display: inline-block /* Aligns the items vertically centered */
+  }
+
+  .text0 {
+    color: #0f0;
+    letter-spacing: 10px;
+    font-family: 'Monofonto';
+    width:0%;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:
+        typing 1s steps(25) forwards;
+    animation-delay: 1.5s;
+}
+
+.text {
+    color: #0f0;
+    letter-spacing: 10px;
+    font-family: 'Monofonto';
+    width:0%;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:
+        typing 1s steps(40) forwards;
+    animation-delay: 3s;
+}
+
+.text2 {
+    color: #0f0;
+    letter-spacing: 10px;
+    font-family: 'Monofonto';
+    width:0%;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:
+        typing 1s steps(40) forwards;
+        animation-delay: 4s;
+}
+
+.text3 {
+    color: #0f0;
+    letter-spacing: 10px;
+    font-family: 'Monofonto';
+    width:0%;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:
+        typing 1s steps(40) forwards;
+        animation-delay: 5s;
+}
+
+.text4 {
+    color: #0f0;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Monofonto';
+    width:0%;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:
+        typing 1s steps(1) forwards;
+        animation-delay: 6s;
+}
+
+@keyframes typing{
+    from { width: 0 }
+    to{ width:100% }
+}
+
+a{
+    color: #0f0;
+    border:#0f0;
+}
+
+a:hover{
+    color:chartreuse
+}       
+
+img{
+    align-items: center;
+    align-content: center;
+}
+
+h1{
+    align-items: center;
+    align-content: center;
+    display: block;
+    margin-left: 550px;
+}
+
+p{
+    align-content: center;
+    text-align: center;
+}
